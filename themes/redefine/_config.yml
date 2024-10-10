@@ -166,7 +166,7 @@ home_banner:
     # Social links
     links:
       github: https://github.com/Lizzy1219 # your GitHub URL
-      instagram: https://www.instagram.com/photos.o3o?igsh=encyd243dTJiaG14&utm_source=qr # your Instagram URL
+      instagram: # your Instagram URL
       zhihu:  # your ZhiHu URL
       twitter:  # your twitter URL
       email:  lizzy.lee1219@gmail.com # your email
@@ -200,9 +200,6 @@ navbar:
     Archives: 
       path: /archives 
       icon: fa-regular fa-archive # can be empty
-    相冊: 
-      icon: fa-solid fa-image #图标
-      path: /masonry/
     # Status: 
     #   path: https://status.ohevan.com/
     #   icon: fa-regular fa-chart-bar
@@ -321,7 +318,7 @@ articles:
   # Article recommendation. Requires nodejieba (npm install nodejieba). Transplanted from hexo-theme-volantis.
   recommendation:
     # Whether to enable article recommendation
-    enable: true
+    enable: false
     # Article recommendation title
     title: 推薦閱讀
     # Max number of articles to display
@@ -425,18 +422,14 @@ plugins:
     enable: false # Whether to enable
   # Aplayer. See https://github.com/DIYgod/APlayer
   aplayer:
-    enable: true # Whether to enable
+    enable: false # Whether to enable
     type: fixed # fixed, mini
     audios:
-      - name: Flower Song - Gustav Lange - Op. 39# audio name
-        artist: GregorQuendel # audio artist
-        url:  /music/flower-song.mp3 # audio url
-        cover: /images/07-43-58-87_200x200.jpg # audio cover url
+      - name:
+        artist:  # audio artist
+        url: # audio url
+        cover: # audio cover url
         lrc: # audio cover lrc
-      - name: Moonlit Night - Relaxing Piano
-        artist: CalvinClavier # audio artist
-        url:  /music/moonlit-night-relaxing-piano-241542.mp3 # audio url
-        cover: /images/11-07-46-756_200x200.jpg # audio cover url
 #      - name: # audio name
 #        artist: # audio artist
 #        url: # audio url
