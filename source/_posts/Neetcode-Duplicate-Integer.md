@@ -1,5 +1,5 @@
 ---
-title: Neetcode Duplicate Integer
+title: Neetcode - Duplicate Integer
 date: 2024-10-09 23:06:32
 tags:
   - Neetcode
